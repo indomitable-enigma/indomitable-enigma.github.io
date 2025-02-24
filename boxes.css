@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1a1a;
+    color: white;
+    margin: 20px;
+    padding: 0;
+    font-size: 1.3rem;
+    margin-left: 20px;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: #333;
+    padding: 40px;
+    border-radius: 10px;
+}
+h1 {
+    color: #4da6ff;
+    text-shadow: -2.5px -2.5px 0 black, 2.5px -2.5px 0 black, 2.5px 2.5px 0 black,
+    2.5px 2.5px 0 black;
+    font-size: 3.2rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2 {
+    color: #4da6ff;
+    font-size: 2.0rem;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    text-shadow: -1.5px -1.5px 0 black, 1.5px -1.5px 0 black, 1.5px 1.5px 0 black,
+    1.5px 1.5px 0 black;
+}
+
+h3 {
+    color: white;
+    font-size: 1.3rem;
+}
+.section {
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: #444;
+    border-radius: 8px;
+    border-color: #4da6ff;
+    border: .08rem solid #4da6ff;
+}
+.contact {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    border: .3rem solid #4da6ff;
+    margin-bottom: 15px;
+    font-size: 1rem;
+
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust spacing between image and text */
+
+    .left img {
+        width: 200px; /* Adjust size as needed */
+        height: auto;
+        border-radius: 10px; /* Optional: for rounded corners */
+    }
+
+    .right {
+        flex: 1;
+    }
+}
+
+.side-by-side {
+    display: flex;
+    gap: 15px; /* Adds space between the two sections */
+    justify-content: space-between; /* Ensures even spacing */
+    align-items: flex-start stretch; /* Aligns sections to the top */
+    flex-wrap: wrap; /* Allows sections to wrap on smaller screens */
+}
+
+.section {
+    flex: 1; /* Ensures sections take equal width */
+    min-width: 300px; /* Prevents sections from becoming too small */
+}
+
+.indent {
+    padding-left: 15px;
+}
+
+.education-item {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin-bottom: 5px;
+    }
+
+    .left {
+        text-indent: 10px;
+        text-align: left;
+        flex: 1;
+    }
+
+    .right {
+        text-align: right;
+        flex: 1;
+    }

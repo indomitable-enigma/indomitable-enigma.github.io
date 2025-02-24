@@ -3,85 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moses Hebrew - Resume</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #1a1a1a;
-            color: white;
-            margin: 20px;
-            padding: 0;
-            font-size: 1.3rem;
-            margin-left: 20px;
-        }
-        .container {
-            width: 60%;
-            margin: auto;
-            background-color: #333;
-            padding: 40px;
-            border-radius: 10px;
-        }
-        h1 {
-            color: #4da6ff;
-            text-shadow: -2.5px -2.5px 0 black, 2.5px -2.5px 0 black, 2.5px 2.5px 0 black,
-            2.5px 2.5px 0 black;
-            font-size: 3.2rem;
-            margin-top: 10px;
-            margin-bottom: 15px;
-        }
-        h2 {
-            color: #4da6ff;
-            font-size: 2.0rem;
-            margin-top: 15px;
-            margin-bottom: 20px;
-            text-shadow: -1.5px -1.5px 0 black, 1.5px -1.5px 0 black, 1.5px 1.5px 0 black,
-            1.5px 1.5px 0 black;
-        }
-
-        h3 {
-            color: white;
-            font-size: 1.3rem;
-        }
-        .section {
-            margin-bottom: 20px;
-            padding: 20px;
-            background-color: #444;
-            border-radius: 8px;
-            border-color: #4da6ff;
-            border-block: .1rem solid #4da6ff;
-        }
-        .contact {
-            background-color: #222;
-            padding: 20px;
-            border-radius: 10px;
-            border-block: .3rem solid #4da6ff;
-            margin-bottom: 30px;
-            font-size: 1rem;
-        }
-
-        .side-by-side {
-            display: flex;
-            gap: 67px; /* Adds space between the two sections */
-        }
-
-    </style>
+    <title>HeBooBoo Resume</title>
+    <link rel="stylesheet" href="boxes.css">
 </head>
 <body>
     <div class="container">
         <header>
-            <h1>Moses Hebrew</h1>
+            <h1>Hebrew Moses</h1>
             <div class="contact">
-                <h3><b>Psychological Operations Specialist | Freelance IT, Marketing & Web Development</b></h3>
-                <p>Rukuba Road Jos, Plateau State, Nigeria</p>
-                <p>Email: <a href="mailto:hebrewmoses3@gmail.com" style="color:#4da6ff;">hebrewmoses3@gmail.com</a></p>
-                <p>Phone: +2348143794322, +2348143972641</p>
+                <span class="left"> 
+                    <img class="thumbnail" 
+                    src= "https://files.oaiusercontent.com/file-RCwkE2jwLonBMXE3ABZVnG?se=2025-02-24T19%3A19%3A57Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D668a1397-f862-4c1d-b660-d8fa99bd0630.webp&sig=exV2SH9bSwBYmvOxwkGKU/9FxOLnp8eBjHJ2tOa1yVg%3D">
+                </span>
+                <span class="right">
+                    <h3><b>Psychological Operations Specialist | Freelance IT, Marketing & Web Development</b></h3>
+                    <p class="indent">&#x1F3D9; Rukuba Road Jos, Plateau State, Nigeria <br />
+                    &#x2709; <a href="mailto:hebrewmoses3@gmail.com" style="color:#4da6ff;">hebrewmoses3@gmail.com</a> <br />
+                    &#x260F; +2348143794322, +2348143972641</p>
+                </span>
             </div>
         </header>
         
         <section class="section">
             <h2>Profile</h2>
-            <p>Psychologist with solid academic training and an innovative approach 
-                to my work. I have a deep passion for serving humanity, innovation and technology, 
+            <p class="indent">Psychologist with a deep 
+                passion for serving humanity through innovation, creativity, and technological
+                advancement. I am skilled in understanding human behavior,
+                identifying problems,
                 and building future-focused solutions, utilizing my top-notch interpersonal 
                 and networking skills to build connections and work effectively with others.
                 My psychological expertise is complemented 
@@ -89,16 +37,23 @@
                 I am aggressively committed 
                 to staying at the forefront of psychological and technological 
                 advancements and continually enhancing my skills to create
-                cutting edge psychological and digital experiences.</p>
+                outstanding psychological and digital experiences.</p>
         </section>
-        
+
         <section class="section">
             <h2>Education & Certification</h2>
-            <ul>
-                <li><b>B.Sc -  General and Applied Psychology</b> - University of Jos (2015 - 2023)</li>
-                <li><b>SSCE</b> - Alama Secondary School, Jos (2014 - 2015)</li>
-                <li><b>Computer Training Certificate</b> - Forward Computer Training School (2009 - 2010)</li>
-            </ul>
+            <div class="education-item">
+                <span class="left">&#127891; <b>B.Sc. - General and Applied Psychology</b></span>
+                <span class="right">University of Jos (2015 - 2023)</span>
+            </div>
+            <div class="education-item">
+                <span class="left"><b>&#127891; Senior School Certificate Examination</b></span>
+                <span class="right">Alama Secondary School, Jos (2014 - 2015)</span>
+            </div>
+            <div class="education-item">
+                <span class="left"><b>&#127891; Computer Training Certificate</b></span>
+                <span class="right">Forward Computer Training School (2009 - 2010)</span>
+            </div>
         </section>
 
         <div class="side-by-side">
@@ -112,33 +67,44 @@
                 </ul>
                 <p><u>AI/ML</u></p>
                 <ul>
-                    <li>AI prompt engineering</li>
+                    <li>Skilled in AI prompt engineering to optimize output relevance
+                        and boost efficiency in professional and technical projects
+                    </li>
                 </ul>
                 <p><u>Marketing</u></p>
                 <ul>
-                    <li>SEO</li>
-                    <li>Highly skilled in marking psychology theory and practice</li>
+                    <li>Highly knowledgeable of market psychology and skilled in its implementation</li>
+                    <li>Expertise in SEO strategy, keyword optimization, and content 
+                        ranking improvements</li>
+                </ul>
             </section>
         
             <section class="section">
-                <h2>Personal Skills & Hobbies</h2>
-                <ul>
+                <h2>Soft Skills & Hobbies</h2>
+                <ul style="line-height: 2.0rem;">
                     <li>High level of discipline and confidentiality</li>
                     <li>Proactive, hardworking, and creative</li>
                     <li>Ability to work efficiently under pressure</li>
-                    <li>Hobbies: Singing, Reading, Dancing, Games, Eating</li>
+                    <li>Superb networking skills</li>
+                    <li>Social Engineering</li>
+                    <li>Emotional manipulation</li>
+                    <li>Blackmail</li>
+                    <li>Cyberstalking</li>
+                    <li>Gaslighting</li>
+                    <li>Sleazy-ass begging</li>
+                    <li>Making puppies and small children cry</li>
+                    <li>Singing, dancing, reading, comedy, culinary appreciation</li>
                 </ul>
             </section>
         </div>
 
         <section class="section">
             <h2>References</h2>
-            <ul>
-                <li>
-                    <h>Molly-Marie Richards</h>
-                    <p>Relationship: Coworker/Friend <br />
-                        (773) 520-0744 <br />
-                        mollymarierichards@gmail.com</p>
+            <p>
+                <h>Molly-Marie Richards</h>
+                <p class="indent">&#129309; Coworker/Friend <br />
+                    &#x2709; mollymarierichards@gmail.com <br />
+                    &#x260F; (773) 520-0744</p>
             </ul>
         </section>
     </div>
